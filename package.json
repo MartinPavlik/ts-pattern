@@ -1,6 +1,7 @@
 {
-  "name": "ts-pattern",
-  "version": "5.0.6",
+  "name": "@satankebab/ts-pattern",
+  "private": false,
+  "version": "5.0.6-rn-fix",
   "description": " The exhaustive Pattern Matching library for TypeScript.",
   "type": "module",
   "source": "src/index.ts",
@@ -20,7 +21,7 @@
     "./package.json": "./package.json"
   },
   "types": "dist/index.d.ts",
-  "main": "dist/index.cjs",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "unpkg": "dist/index.umd.js",
   "scripts": {
